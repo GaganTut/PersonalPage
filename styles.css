@@ -1,3 +1,18 @@
 body {
-  background-color: red;
+  background-color: rgb(240, 240, 240);
+}
+
+.my-work {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects {
+  width: 45%;
+  height: 200px;
+}
+
+.project-pics {
+  width: 50%;
+  padding-bottom: 50%;
 }
