@@ -1,18 +1,17 @@
 body {
-  background-color: rgb(240, 240, 240);
+  width: 100%;
+  height: 100%;
 }
 
-.my-work {
+.views {
+  position: absolute;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  height: 100%;
 }
 
-.projects {
-  width: 45%;
-  height: 200px;
-}
-
-.project-pics {
-  width: 50%;
-  padding-bottom: 50%;
+.intro-home {
+  background-image: url("assets/mainBackground.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
