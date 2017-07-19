@@ -52,3 +52,7 @@ body {
 .views {
   background-color: gray;
 }
+
+.project-div {
+  cursor: pointer;
+}
