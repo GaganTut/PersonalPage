@@ -2,7 +2,8 @@
 (global => {
   const views = document.querySelectorAll('.views');
   const mainLinks = document.querySelectorAll('.main-links');
-  views[0].style.zIndex = '1';
+  views.forEach(view => view.style.display = 'none');
+  views[0].style.display = 'block';
   const linkViewPositions = {
     home: 0,
     projects: 1,
@@ -12,8 +13,8 @@
 
   mainLinks.forEach(link => {
     link.addEventListener('click', event => {
-      views.forEach(view => view.style.zIndex = '0');
-      views[linkViewPositions[event.target.attributes.linktarget.value]].style.zIndex = '1';
+      views.forEach(view => view.style.display = 'none');
+      views[linkViewPositions[event.target.attributes.linktarget.value]].style.display = 'block';
     });
   });
 })(window);
