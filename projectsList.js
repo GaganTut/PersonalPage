@@ -35,14 +35,20 @@
     miniImg.className = 'project-miniImg';
     //miniImg.src = project.miniImg;
 
+    let linkArrow = document.createElement('h4');
+    linkArrow.innerHTML = '------Check it out----->';
+    linkArrow.className = 'link-arrow';
+    linkArrow.addEventListener('click', event => {
+      window.open(project.link);
+    });
+
+
     let projectDiv = document.createElement('div');
     projectDiv.className = 'project-div';
     projectDiv.appendChild(title);
     projectDiv.appendChild(description);
     projectDiv.appendChild(miniImg);
-    projectDiv.addEventListener('click', event => {
-      window.open(project.link);
-    });
+    projectDiv.appendChild(linkArrow);
 
     projectsList.appendChild(projectDiv);
   });

@@ -43,7 +43,7 @@ body {
   font-weight: 300;
 }
 
-.main-title {
+.main-title, .sub-title {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 50px;
   font-weight: 100;
@@ -53,6 +53,22 @@ body {
   background-color: gray;
 }
 
-.project-div {
+.link-arrow {
   cursor: pointer;
+}
+
+.back-link {
+  position: absolute;
+  bottom: 0;
+}
+
+.sub-title {
+  position: absolute;
+  left: 10%;
+}
+
+.projects-list {
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
 }
