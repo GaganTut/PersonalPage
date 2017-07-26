@@ -11,8 +11,6 @@ body {
   width: 100%;
   display: flex;
   height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .home-view {
@@ -20,8 +18,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
-  margin: 0;
-  padding: 0;
 }
 
 .centered {
@@ -85,4 +81,82 @@ body {
 .my-resume {
   position: absolute;
   top: 10%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.my-resume>div{
+  border-top: 1px solid purple;
+  width: 70%;
+}
+
+.resume-header, .resume-objective, .development-experience,.tech-skills, .resume-education, .professional-experience {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.resume-header {
+  flex-flow: row wrap;
+}
+
+.resume-header h2 {
+  font-size: 100px;
+}
+
+#header-name {
+  color: purple;
+  padding: 0;
+  margin: 0;
+}
+
+.personal-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+}
+
+.section-titles {
+  color: purple;
+  width: 15%;
+}
+
+.section-content {
+  width: 80%;
+}
+
+.tech-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.tech-skills-lists {
+  width: 30%;
+}
+
+.contact-info-div {
+  display: flex;
+  position: absolute;
+  top: 10%;
+  justify-content: space-around;
+  width: 100%;
+  flex-flow: row wrap;
+}
+
+.each-info {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0, 0.1);
+  width: 25%;
+  flex-direction: column;
+  margin: 2%;
+  border-radius: 5% 50% 5%;
 }
