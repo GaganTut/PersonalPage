@@ -152,11 +152,22 @@ body {
 .each-info {
   font-size: 30px;
   display: flex;
-  justify-content: center;
   align-items: center;
   background-color: rgba(46,106,144,0.25);
   width: 25%;
   flex-direction: column;
   margin: 2%;
   border-radius: 5% 50% 5%;
+}
+
+@media (max-width: 1000px) {
+  .each-info {
+    width: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .each-info {
+    width: 60%;
+  }
 }
