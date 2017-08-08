@@ -6,6 +6,15 @@ body {
   padding: 0;
 }
 
+.navigation {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  justify-content: flex-end;
+}
+
 .views {
   position: absolute;
   width: 100%;
@@ -28,20 +37,20 @@ body {
 }
 
 .main-links {
-  font-size: 30px;
-  font-weight: 100;
+  font-size: 20px;
+  font-weight: 300;
   margin: 2%;
 }
 
 .main-links:hover {
-  color: rgba(0,0,0, 0.75);
+  color: rgb(255,255,255);
   cursor: pointer;
   font-weight: 300;
 }
 
 .main-title, .sub-title {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 50px;
+  font-size: 38px;
   font-weight: 100;
 }
 
@@ -159,13 +168,22 @@ a:link, a:visited {
 
 .each-info {
   font-size: 30px;
+  color: ghostwhite;
   display: flex;
   align-items: center;
-  background-color: rgba(255,255,255,0.4);
+  background-color: rgb(46,106,144);
   width: 25%;
   flex-direction: column;
   margin: 2%;
   border-radius: 5% 50% 5%;
+}
+
+.each-info a {
+  color: ghostwhite;
+}
+
+.each-info a:hover {
+  color: gray;
 }
 
 @media (max-width: 1000px) {
