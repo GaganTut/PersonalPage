@@ -48,7 +48,7 @@ body {
   font-weight: 300;
 }
 
-.main-title, .sub-title {
+.main-title {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 38px;
   font-weight: 100;
@@ -59,19 +59,13 @@ body {
   overflow: scroll;
 }
 
+.project-title {
+  color: rgb(46,106,144);
+}
+
 .project-title:hover {
-  color: rgba(0,0,0, 0.75);
+  color: gray;
   cursor: pointer;
-}
-
-.back-link {
-  position: absolute;
-  z-index: 1;
-}
-
-.sub-title {
-  position: absolute;
-  left: 10%;
 }
 
 .projects-list {
@@ -81,6 +75,10 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.project-miniImg {
+  width: 40%;
 }
 
 .project-div {

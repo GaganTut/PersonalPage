@@ -17,7 +17,7 @@
       name: 'Sorting Algorithms',
       link: 'http://gagantut.github.io/SortingAlgorithms/',
       description: 'This project is a personal project that I used to help learn and really understand various sorting algorithms. The project\'s github page has descriptions with about how each sorting algorithm works as well as pseudocode to show how it can be implemented. Beyond that, I created working visuals to display how each algorithm works visually. To do this, I used AFrame which is a web framework to create virtual reality web pages. Using aframe, I was able to create 40 columns of various lengths which represent their values. The columns are then sorted in front of your eyes depending on whichever sorting method you decide to use.',
-      miniImg: './assets/algorithms.jpg'
+      miniImg: './assets/algos.jpg'
     }
   ];
   const projectsList = document.querySelector('.projects-list');
@@ -36,13 +36,13 @@
 
     let miniImg = document.createElement('img');
     miniImg.className = 'project-miniImg';
-    //miniImg.src = project.miniImg;
+    miniImg.src = project.miniImg;
 
     let projectDiv = document.createElement('div');
     projectDiv.className = 'project-div';
     projectDiv.appendChild(title);
-    projectDiv.appendChild(description);
     projectDiv.appendChild(miniImg);
+    projectDiv.appendChild(description);
 
     projectsList.appendChild(projectDiv);
   });
