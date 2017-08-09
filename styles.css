@@ -178,6 +178,10 @@ a:link, a:visited {
   border-radius: 5% 50% 5%;
 }
 
+.each-info:hover {
+  background-color: rgba(46,106,144,0.5);
+}
+
 .each-info a {
   color: ghostwhite;
 }
