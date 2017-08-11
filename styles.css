@@ -196,23 +196,24 @@ a:link, a:visited {
 }
 
 .each-info {
+  border-bottom: 2px solid rgb(46,106,144);
   font-size: 30px;
-  color: ghostwhite;
   display: flex;
   align-items: center;
-  background-color: rgb(46,106,144);
   width: 25%;
   flex-direction: column;
   margin: 2%;
-  border-radius: 5% 50% 5%;
+}
+.each-info h4 {
+  color: rgb(46,106,144);
 }
 
 .each-info:hover {
-  background-color: rgba(46,106,144,0.5);
+  border-bottom: 4px solid rgb(46,106,144);
 }
 
 .each-info a {
-  color: ghostwhite;
+  color: black;
 }
 
 .each-info a:hover {
