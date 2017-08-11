@@ -55,12 +55,13 @@ body {
 }
 
 .projects-view, .resume-view, .contact-view {
-  background-color: rgba(225, 225, 225, 1);
+  background-color: rgb(240,240,240);
   overflow: scroll;
 }
 
 .project-title {
   font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
   color: rgb(46,106,144);
 }
 
@@ -85,6 +86,13 @@ body {
 .project-div {
   width: 75%;
   border-bottom: 2px solid rgb(46,106,144);
+  line-height: 1.25rem;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 13px;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 .my-resume {
@@ -98,6 +106,27 @@ body {
 .my-resume>div{
   border-top: 1px solid rgb(46,106,144);
   width: 70%;
+}
+
+.my-resume > div > div {
+  margin: 2% 0;
+}
+
+.my-resume h3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: rgb(46,106,144);
+}
+
+.my-resume p, .my-resume li {
+  line-height: 1.25rem;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 13px;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 .resume-header, .resume-objective, .development-experience,.tech-skills, .resume-education, .professional-experience {
