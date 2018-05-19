@@ -160,6 +160,7 @@ body {
 }
 
 .section-titles {
+  align-self: flex-start;
   color: rgb(46,106,144);
   width: 15%;
 }
