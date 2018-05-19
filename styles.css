@@ -203,7 +203,7 @@ a:link, a:visited {
   align-items: center;
   width: 25%;
   flex-direction: column;
-  margin: 2%;
+  margin: 10px;
 }
 .each-info h4 {
   color: rgb(46,106,144);
@@ -211,6 +211,7 @@ a:link, a:visited {
 
 .each-info:hover {
   border-bottom: 4px solid rgb(46,106,144);
+  margin-bottom: 8px;
 }
 
 .each-info a {
